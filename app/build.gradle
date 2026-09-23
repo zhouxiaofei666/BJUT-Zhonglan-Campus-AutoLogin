@@ -1,0 +1,25 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.campus.autologin'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.campus.autologin"
+        minSdk 26
+        targetSdk 33
+        versionCode 4
+        versionName "1.3.0"
+    }
+
+    buildTypes {
+        release { minifyEnabled false }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
